@@ -21,8 +21,12 @@ var numbers = [3, 56, 2, 48, 5];
 // console.log(newNumber)
 var numbers = [3, 56, 2, 48, 5];
 
-const newNumbers = numbers.map((x) => {
-    return x * x;
-});
+// const newNumbers = numbers.map((x) => {
+//     return x * x;
+// });
 
-console.log(newNumbers)
+// console.log(newNumbers)
+
+// const newNumbers = numbers.map( x => x * 2);
+
+const newNumbers = numbers.filter(num => num < 10);
