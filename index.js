@@ -31,6 +31,8 @@ var numbers = [3, 56, 2, 48, 5];
 
 // const newNumbers = numbers.filter(num => num < 10);
 
-const newNumber = numbers.reduce((accumulator, currentNumber) => accumulator + currentNumber);
+// const newNumber = numbers.reduce((accumulator, currentNumber) => accumulator + currentNumber);
+// const newNumber = numbers.find(num => num > 10);
 
+const newNumber = numbers.findIndex(num => num > 10);
 console.log(newNumber)
