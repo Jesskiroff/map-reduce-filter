@@ -12,10 +12,17 @@ var numbers = [3, 56, 2, 48, 5];
 //     return num <10
 // });
 
-var newNumber = numbers.reduce(function(accumulator, currentNumber){
-    console.log("accumulator = " + accumulator);
-    console.log("currentNumber = " + currentNumber);
-        return accumulator + currentNumber;
-})
+// var newNumber = numbers.reduce(function(accumulator, currentNumber){
+//     console.log("accumulator = " + accumulator);
+//     console.log("currentNumber = " + currentNumber);
+//         return accumulator + currentNumber;
+// })
 
-console.log(newNumber)
+// console.log(newNumber)
+var numbers = [3, 56, 2, 48, 5];
+
+const newNumbers = numbers.map((x) => {
+    return x * x;
+});
+
+console.log(newNumbers)
